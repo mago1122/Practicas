@@ -18,7 +18,7 @@ def anio_nacimiento(request, edad):
 
 def vista_plantilla(request):
 
-    archivo = open(r"C:\Users\Pleya\Desktop\CH - Python\desafio\practica\practica\templates\plantilla_1.html") 
+    archivo = open(r"C:\Users\Pleya\Desktop\Practicas-master\practica\templates\plantilla_1.html") 
 
     plantilla = Template(archivo.read()) #Se carga en memoria nuestro documento, plantilla_1.
     #notese que archivo.read esta haciendo la asociacion.
@@ -34,7 +34,7 @@ def vista_plantilla(request):
 def vista_listado_alumnos(request):
 
     #abrimos el archivo
-    archivo = open(r"C:\Users\Pleya\Desktop\CH - Python\desafio\practica\practica\templates\listado_alumnos.html")
+    archivo = open(r"C:\Users\Pleya\Desktop\Practicas-master\practica\templates\listado_alumnos.html")
 
     #creamos el template
     plantilla = Template(archivo.read())
